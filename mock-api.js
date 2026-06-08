@@ -223,7 +223,7 @@ app.get('/health', (req, res) => {
   res.status(200).json({
     status: 'OK',
     timestamp: new Date().toISOString(),
-    service: 'muse-backend',
+    service: 'synapse-backend',
   });
 });
 
@@ -337,6 +337,6 @@ app.get('/api/artworks/:id', (req, res) => {
 });
 
 app.listen(PORT, () => {
-  console.log(`🚀 Mock Muse API running on port ${PORT}`);
+  console.log(`🚀 Mock Synapse Exchange API running on port ${PORT}`);
   console.log(`📊 Health check: http://localhost:${PORT}/health`);
 });

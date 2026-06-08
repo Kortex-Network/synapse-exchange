@@ -16,7 +16,7 @@ interface UserPreferencesContextType extends UserPreferences {
   setLanguage: (language: Language) => void;
 }
 
-const STORAGE_KEY = 'muse_user_preferences';
+const STORAGE_KEY = 'synapse_user_preferences';
 
 const DEFAULT_PREFERENCES: UserPreferences = {
   theme: 'system',

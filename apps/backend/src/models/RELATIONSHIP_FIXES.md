@@ -4,7 +4,7 @@ This document outlines all the virtual relationships that have been added to fix
 
 ## Problem Summary
 
-The Muse AI Art Marketplace database models lacked proper virtual relationships, making it difficult to:
+The Synapse Exchange database models lacked proper virtual relationships, making it difficult to:
 - Perform reverse lookups between related entities
 - Efficiently query related data with population
 - Maintain data consistency and integrity

@@ -110,7 +110,7 @@ export function createApp() {
     res.status(200).json({
       status: 'OK',
       timestamp: new Date().toISOString(),
-      service: 'muse-backend'
+      service: 'synapse-backend'
     })
   })
 

@@ -135,7 +135,7 @@ npm run dev
 ## 📁 File Structure
 
 ```
-muse-fullstack-dapp/
+synapse-exchange/
 ├── .env.example                      # Root (new)
 ├── README.md                         # Updated with env setup
 ├── package.json                      # Scripts added
@@ -309,7 +309,7 @@ Users now have multiple resources:
 
 ## 🎉 Summary
 
-This resolution provides a **complete environment configuration system** for the Muse dApp:
+This resolution provides a **complete environment configuration system** for the Synapse Exchange dApp:
 
 ### What Developers Get
 ✅ Clear setup instructions  

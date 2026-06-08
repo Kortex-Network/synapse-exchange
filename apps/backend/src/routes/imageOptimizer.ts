@@ -125,7 +125,7 @@ router.get('/image-optimizer', async (req, res) => {
       responseType: 'arraybuffer',
       timeout: 10000,
       headers: {
-        'User-Agent': 'Muse-Image-Optimizer/1.0'
+        'User-Agent': 'Synapse-Image-Optimizer/1.0'
       }
     })
 

@@ -10,7 +10,7 @@ import relationshipHelpers from '../utils/relationshipHelpers'
 
 // Mock MongoDB connection for testing
 beforeAll(async () => {
-  const mongoUri = process.env.MONGODB_URI_TEST || 'mongodb://localhost:27017/muse-test'
+  const mongoUri = process.env.MONGODB_URI_TEST || 'mongodb://localhost:27017/synapse-test'
   
   if (mongoose.connection.readyState === 0) {
     await mongoose.connect(mongoUri)

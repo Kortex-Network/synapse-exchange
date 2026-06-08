@@ -1,8 +1,8 @@
 import { Helmet } from 'react-helmet-async'
 
-const SITE_NAME = 'Muse — AI Art Marketplace'
+const SITE_NAME = 'Synapse Exchange — AI Art Marketplace'
 const DEFAULT_IMAGE = '/og-image.png'
-const BASE_URL = import.meta.env.VITE_APP_URL || 'https://muse.art'
+const BASE_URL = import.meta.env.VITE_APP_URL || 'https://synapse.exchange'
 
 export interface StructuredData {
   '@context': string
@@ -11,7 +11,7 @@ export interface StructuredData {
 }
 
 interface MetaTagsProps {
-  /** Page title — will be rendered as "Title | Muse — AI Art Marketplace" */
+  /** Page title — will be rendered as "Title | Synapse Exchange — AI Art Marketplace" */
   title?: string
   description?: string
   image?: string
@@ -40,7 +40,7 @@ export const MetaTags = ({
   type = 'website',
   siteName = SITE_NAME,
   twitterCard = 'summary_large_image',
-  twitterSite = '@museartmarket',
+  twitterSite = '@synapseexchange',
   structuredData,
   noIndex = false,
   additionalTags = {},

@@ -26,10 +26,10 @@ node -e "console.log(require('crypto').randomBytes(32).toString('hex'))"
 ### 3. Start Services (Docker)
 ```bash
 # MongoDB
-docker run -d -p 27017:27017 --name muse-mongo mongo:6
+docker run -d -p 27017:27017 --name synapse-mongo mongo:6
 
 # Redis (optional)
-docker run -d -p 6379:6379 --name muse-redis redis:7
+docker run -d -p 6379:6379 --name synapse-redis redis:7
 ```
 
 ### 4. Configure & Validate
@@ -70,7 +70,7 @@ npm run dev
 PORT=3001
 NODE_ENV=development
 FRONTEND_URL=http://localhost:3000
-MONGODB_URI=mongodb://localhost:27017/muse
+MONGODB_URI=mongodb://localhost:27017/synapse-exchange
 JWT_SECRET=generated_secret_here
 ```
 
@@ -84,12 +84,12 @@ VITE_ENVIRONMENT=development
 
 #### MongoDB Local
 ```
-mongodb://localhost:27017/muse
+mongodb://localhost:27017/synapse-exchange
 ```
 
 #### MongoDB Atlas
 ```
-mongodb+srv://user:password@cluster.mongodb.net/muse?retryWrites=true&w=majority
+mongodb+srv://user:password@cluster.mongodb.net/synapse-exchange?retryWrites=true&w=majority
 ```
 
 #### Redis Local

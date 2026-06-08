@@ -1,6 +1,6 @@
 # Error Handling Implementation
 
-This document describes the comprehensive error handling system implemented for the Muse AI Generated Art Marketplace to address issue #10.
+This document describes the comprehensive error handling system implemented for the Synapse Exchange to address issue #10.
 
 ## Overview
 

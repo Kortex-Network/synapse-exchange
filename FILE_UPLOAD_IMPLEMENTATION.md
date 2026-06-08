@@ -2,7 +2,7 @@
 
 ## Overview
 
-This document describes the comprehensive file upload implementation with AWS S3 cloud storage integration for the Muse AI Art Marketplace. The implementation provides secure, scalable, and efficient file handling capabilities with support for multiple file formats, image optimization, and automatic cleanup.
+This document describes the comprehensive file upload implementation with AWS S3 cloud storage integration for the Synapse Exchange. The implementation provides secure, scalable, and efficient file handling capabilities with support for multiple file formats, image optimization, and automatic cleanup.
 
 ## Features
 
@@ -161,7 +161,7 @@ format: webp (optional)
 ```env
 # AWS S3 Configuration
 AWS_REGION=us-east-1
-AWS_S3_BUCKET=muse-artwork-uploads
+AWS_S3_BUCKET=synapse-artwork-uploads
 AWS_ACCESS_KEY_ID=your_access_key
 AWS_SECRET_ACCESS_KEY=your_secret_key
 AWS_S3_ENDPOINT=https://nyc3.digitaloceanspaces.com (optional)
@@ -177,7 +177,7 @@ ALLOWED_FILE_TYPES=image/jpeg,image/png,image/webp,image/gif,image/svg+xml
 1. **Create S3 Bucket**:
    ```bash
    aws s3api create-bucket \
-     --bucket muse-artwork-uploads \
+     --bucket synapse-artwork-uploads \
      --region us-east-1
    ```
 
@@ -203,7 +203,7 @@ ALLOWED_FILE_TYPES=image/jpeg,image/png,image/webp,image/gif,image/svg+xml
          "Effect": "Allow",
          "Principal": "*",
          "Action": "s3:GetObject",
-         "Resource": "arn:aws:s3:::muse-artwork-uploads/*"
+         "Resource": "arn:aws:s3:::synapse-artwork-uploads/*"
        }
      ]
    }
@@ -364,7 +364,7 @@ npm test -- --coverage fileUpload.test.ts
 aws sts get-caller-identity
 
 # Test S3 access
-aws s3 ls s3://muse-artwork-uploads
+aws s3 ls s3://synapse-artwork-uploads
 ```
 
 #### File Upload Failures

@@ -1,6 +1,6 @@
 // ── AppError class ────────────────────────────────────────────────────────────
 /**
- * A first-class error type for the Muse frontend.
+ * A first-class error type for the Synapse Exchange frontend.
  * Extends `Error` so `instanceof AppError` checks work correctly in hooks and services.
  */
 export class AppError extends Error {

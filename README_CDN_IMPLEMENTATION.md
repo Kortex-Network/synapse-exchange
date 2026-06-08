@@ -8,7 +8,7 @@
 
 ## Executive Summary
 
-A comprehensive, production-ready CDN integration system has been implemented for the Muse DApp. This includes:
+A comprehensive, production-ready CDN integration system has been implemented for the Synapse Exchange DApp. This includes:
 
 - **4 backend service/middleware/route files** (750+ lines)
 - **2 frontend utility/hook files** (450+ lines) 
@@ -440,7 +440,7 @@ curl -X POST http://localhost:3001/api/cdn/asset-url \
 ## 📝 File Locations
 
 ```
-/home/student/Desktop/muse-fullstack-dapp/
+/home/student/Desktop/synapse-exchange/
 ├── CDN_START_HERE.md                    ← START HERE
 ├── CDN_QUICK_START.md
 ├── CDN_INTEGRATION_GUIDE.md

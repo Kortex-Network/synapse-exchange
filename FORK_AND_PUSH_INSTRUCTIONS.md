@@ -12,21 +12,21 @@
 ### ✅ OPTION 1: Fork & Push (Recommended for Contributors)
 
 #### Step 1: Fork the Repository
-1. Go to: https://github.com/Muse-AI-Generated-Art-Marketplace/muse-fullstack-dapp
+1. Go to: https://github.com/Synapse-Exchange/synapse-exchange
 2. Click **Fork** button (top right)
 3. Wait for fork to complete
 
 #### Step 2: Add Your Fork Remote
 ```bash
-# Go to your fork (e.g., https://github.com/yusstyle/muse-fullstack-dapp)
+# Go to your fork (e.g., https://github.com/yusstyle/synapse-exchange)
 # Copy the URL
 
 # Add your fork as a remote
 cd c:\Users\PC\OneDrive\Desktop\wave3
-git remote add fork https://github.com/yusstyle/muse-fullstack-dapp.git
+git remote add fork https://github.com/yusstyle/synapse-exchange.git
 
 # Or replace origin if needed
-git remote set-url origin https://github.com/yusstyle/muse-fullstack-dapp.git
+git remote set-url origin https://github.com/yusstyle/synapse-exchange.git
 ```
 
 #### Step 3: Push to Your Fork
@@ -38,7 +38,7 @@ git push -u origin feature/environment-configuration
 ```
 
 #### Step 4: Create PR from GitHub Web
-1. Go to: https://github.com/yusstyle/muse-fullstack-dapp
+1. Go to: https://github.com/yusstyle/synapse-exchange
 2. You'll see a button "Compare & pull request" for your branch
 3. Click it
 4. Title: `feat: Complete environment configuration system - Resolves #70`
@@ -50,7 +50,7 @@ git push -u origin feature/environment-configuration
 ### ✅ OPTION 2: GitHub Web Interface (Easiest)
 
 #### Step 1: Open the Main Repository
-Go to: https://github.com/Muse-AI-Generated-Art-Marketplace/muse-fullstack-dapp
+Go to: https://github.com/Synapse-Exchange/synapse-exchange
 
 #### Step 2: Create PR from Your Fork
 1. Navigate to Issues
@@ -66,7 +66,7 @@ Go to: https://github.com/Muse-AI-Generated-Art-Marketplace/muse-fullstack-dapp
 # ✨ Environment Configuration System - Resolves Issue #70
 
 ## Overview
-This PR delivers a complete environment configuration system for the Muse AI Art Marketplace dApp, resolving issue #70: "Missing environment variables for database connections, API keys, and configuration."
+This PR delivers a complete environment configuration system for the Synapse Exchange dApp, resolving issue #70: "Missing environment variables for database connections, API keys, and configuration."
 
 ## What's Included
 
@@ -124,13 +124,13 @@ Closes #70
 ## 🔗 GITHUB LINKS
 
 ### Main Repository
-- **Repository**: https://github.com/Muse-AI-Generated-Art-Marketplace/muse-fullstack-dapp
-- **Issue #70**: https://github.com/Muse-AI-Generated-Art-Marketplace/muse-fullstack-dapp/issues/70
+- **Repository**: https://github.com/Synapse-Exchange/synapse-exchange
+- **Issue #70**: https://github.com/Synapse-Exchange/synapse-exchange/issues/70
 
 ### Your Fork (After Creating)
-- **Your Fork**: https://github.com/yusstyle/muse-fullstack-dapp
-- **Your Branch**: https://github.com/yusstyle/muse-fullstack-dapp/tree/feature/environment-configuration
-- **Create PR**: https://github.com/Muse-AI-Generated-Art-Marketplace/muse-fullstack-dapp/compare/main...yusstyle:feature/environment-configuration
+- **Your Fork**: https://github.com/yusstyle/synapse-exchange
+- **Your Branch**: https://github.com/yusstyle/synapse-exchange/tree/feature/environment-configuration
+- **Create PR**: https://github.com/Synapse-Exchange/synapse-exchange/compare/main...yusstyle:feature/environment-configuration
 
 ---
 
@@ -170,12 +170,12 @@ git diff --name-status origin/main..HEAD | head -20
 **Choose One:**
 
 ### If You Need to Fork First:
-1. Go to: https://github.com/Muse-AI-Generated-Art-Marketplace/muse-fullstack-dapp/fork
+1. Go to: https://github.com/Synapse-Exchange/synapse-exchange/fork
 2. Create fork
 3. Then run:
    ```bash
    cd c:\Users\PC\OneDrive\Desktop\wave3
-   git remote add fork https://github.com/YOUR_USERNAME/muse-fullstack-dapp.git
+   git remote add fork https://github.com/YOUR_USERNAME/synapse-exchange.git
    git push -u fork feature/environment-configuration
    ```
 
@@ -241,5 +241,5 @@ git status
 
 ---
 
-*Muse AI-Generated Art Marketplace · Environment Configuration System · March 27, 2026*
+*Synapse Exchange · Environment Configuration System · March 27, 2026*
 ```

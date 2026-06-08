@@ -48,13 +48,13 @@
 #### STEP 1️⃣: FORK THE REPOSITORY (1 minute)
 
 **🔗 Click this link NOW:**
-### https://github.com/Muse-AI-Generated-Art-Marketplace/muse-fullstack-dapp/fork
+### https://github.com/Synapse-Exchange/synapse-exchange/fork
 
 OR:
-1. Go to: https://github.com/Muse-AI-Generated-Art-Marketplace/muse-fullstack-dapp
+1. Go to: https://github.com/Synapse-Exchange/synapse-exchange
 2. Click the **Fork** button (top right corner)
 3. Wait for fork to complete (~1 minute)
-4. You'll have: `https://github.com/yusstyle/muse-fullstack-dapp`
+4. You'll have: `https://github.com/yusstyle/synapse-exchange`
 
 ---
 
@@ -65,7 +65,7 @@ OR:
 ```powershell
 cd c:\Users\PC\OneDrive\Desktop\wave3
 
-git remote add fork https://github.com/yusstyle/muse-fullstack-dapp.git
+git remote add fork https://github.com/yusstyle/synapse-exchange.git
 
 git push -u fork feature/environment-configuration
 ```
@@ -87,7 +87,7 @@ Branch 'feature/environment-configuration' set up to track remote branch 'featur
 **Two options:**
 
 **🟢 EASIEST - Automatic (Recommended):**
-1. Go to: https://github.com/yusstyle/muse-fullstack-dapp
+1. Go to: https://github.com/yusstyle/synapse-exchange
 2. Look for: **"Compare & pull request"** banner
 3. Click that button
 4. It will show the PR form
@@ -96,7 +96,7 @@ Branch 'feature/environment-configuration' set up to track remote branch 'featur
 7. Click **"Create pull request"** ✅
 
 **🟡 MANUAL:**
-1. Go to: https://github.com/Muse-AI-Generated-Art-Marketplace/muse-fullstack-dapp
+1. Go to: https://github.com/Synapse-Exchange/synapse-exchange
 2. Click: **Pull requests** tab
 3. Click: **"New pull request"**
 4. Set base: `main`
@@ -113,7 +113,7 @@ Branch 'feature/environment-configuration' set up to track remote branch 'featur
 # ✨ Environment Configuration System - Resolves Issue #70
 
 ## 🎯 Overview
-Complete environment configuration system for the Muse AI Art Marketplace dApp, resolving issue #70: "Missing environment variables for database connections, API keys, and configuration."
+Complete environment configuration system for the Synapse Exchange dApp, resolving issue #70: "Missing environment variables for database connections, API keys, and configuration."
 
 ## 📦 Deliverables
 
@@ -166,16 +166,16 @@ Complete environment configuration system for the Muse AI Art Marketplace dApp, 
 After each step, verify:
 
 ### ✅ After Fork:
-- [ ] You see your fork at: https://github.com/yusstyle/muse-fullstack-dapp
-- [ ] It shows "Forked from Muse-AI-Generated-Art-Marketplace/muse-fullstack-dapp"
+- [ ] You see your fork at: https://github.com/yusstyle/synapse-exchange
+- [ ] It shows "Forked from Synapse-Exchange/synapse-exchange"
 
 ### ✅ After Push:
 - [ ] No errors in PowerShell output
 - [ ] You see: "Branch 'feature/environment-configuration' set up to track remote"
-- [ ] Your branch appears in: https://github.com/yusstyle/muse-fullstack-dapp/branches
+- [ ] Your branch appears in: https://github.com/yusstyle/synapse-exchange/branches
 
 ### ✅ After PR Creation:
-- [ ] PR shows at: https://github.com/Muse-AI-Generated-Art-Marketplace/muse-fullstack-dapp/pulls
+- [ ] PR shows at: https://github.com/Synapse-Exchange/synapse-exchange/pulls
 - [ ] PR says "Compare" with your fork name
 - [ ] PR shows 18 files changed (or close number)
 - [ ] Issue #70 is linked in the PR
@@ -193,7 +193,7 @@ YOU ARE HERE ↓
 └─────────────────────────────────────────────────────────────┘
                         ⬇️ FORK NOW
 ┌─────────────────────────────────────────────────────────────┐
-│ STEP 1: https://github.com/../muse-fullstack-dapp/fork     │
+│ STEP 1: https://github.com/../synapse-exchange/fork     │
 │ Time: 1 minute                                              │
 │ Action: Click Fork button, wait for completion              │
 └─────────────────────────────────────────────────────────────┘
@@ -227,10 +227,10 @@ YOU ARE HERE ↓
 
 | Link | Purpose |
 |------|---------|
-| https://github.com/Muse-AI-Generated-Art-Marketplace/muse-fullstack-dapp/fork | **Fork Now** |
-| https://github.com/yusstyle/muse-fullstack-dapp | Your Fork (after) |
-| https://github.com/Muse-AI-Generated-Art-Marketplace/muse-fullstack-dapp/issues/70 | Issue #70 |
-| https://github.com/Muse-AI-Generated-Art-Marketplace/muse-fullstack-dapp/compare | Create PR |
+| https://github.com/Synapse-Exchange/synapse-exchange/fork | **Fork Now** |
+| https://github.com/yusstyle/synapse-exchange | Your Fork (after) |
+| https://github.com/Synapse-Exchange/synapse-exchange/issues/70 | Issue #70 |
+| https://github.com/Synapse-Exchange/synapse-exchange/compare | Create PR |
 
 ---
 
@@ -239,10 +239,10 @@ YOU ARE HERE ↓
 **After forking, run this in PowerShell:**
 
 ```powershell
-cd c:\Users\PC\OneDrive\Desktop\wave3; git remote add fork https://github.com/yusstyle/muse-fullstack-dapp.git; git push -u fork feature/environment-configuration
+cd c:\Users\PC\OneDrive\Desktop\wave3; git remote add fork https://github.com/yusstyle/synapse-exchange.git; git push -u fork feature/environment-configuration
 ```
 
-Then go to: https://github.com/yusstyle/muse-fullstack-dapp and click "Compare & pull request"
+Then go to: https://github.com/yusstyle/synapse-exchange and click "Compare & pull request"
 
 ---
 
@@ -327,17 +327,17 @@ When everything is complete, you'll see:
 ### Common Issues:
 
 **Q: "Permission denied" error**
-A: You need to fork first! Go to: https://github.com/Muse-AI-Generated-Art-Marketplace/muse-fullstack-dapp/fork
+A: You need to fork first! Go to: https://github.com/Synapse-Exchange/synapse-exchange/fork
 
 **Q: "Remote 'fork' already exists"**
 A: 
 ```bash
 git remote remove fork
-git remote add fork https://github.com/yusstyle/muse-fullstack-dapp.git
+git remote add fork https://github.com/yusstyle/synapse-exchange.git
 ```
 
 **Q: Can't find "Compare & pull request" button**
-A: Refresh the page, or go directly to: https://github.com/Muse-AI-Generated-Art-Marketplace/muse-fullstack-dapp/compare
+A: Refresh the page, or go directly to: https://github.com/Synapse-Exchange/synapse-exchange/compare
 
 **Q: How do I know if push was successful?**
 A: Look for: "Branch 'feature-environment-configuration' set up to track remote"
@@ -375,8 +375,8 @@ NOW  ─────────────────────────
 - [ENVIRONMENT_SETUP_CHECKLIST.md](./ENVIRONMENT_SETUP_CHECKLIST.md) - Interactive checklist
 
 **GitHub Links:**
-- Main Repository: https://github.com/Muse-AI-Generated-Art-Marketplace/muse-fullstack-dapp
-- Issue #70: https://github.com/Muse-AI-Generated-Art-Marketplace/muse-fullstack-dapp/issues/70
+- Main Repository: https://github.com/Synapse-Exchange/synapse-exchange
+- Issue #70: https://github.com/Synapse-Exchange/synapse-exchange/issues/70
 - Stellar Wave: https://www.drips.network/wave
 
 **Contributor Info:**
@@ -390,7 +390,7 @@ NOW  ─────────────────────────
 ## 🎯 ONE MORE TIME - YOUR NEXT STEPS
 
 ### **RIGHT NOW:**
-1. Click: https://github.com/Muse-AI-Generated-Art-Marketplace/muse-fullstack-dapp/fork
+1. Click: https://github.com/Synapse-Exchange/synapse-exchange/fork
 2. Wait for fork (1 min)
 3. Go to next step
 
@@ -400,7 +400,7 @@ NOW  ─────────────────────────
 6. Press Enter (2 min)
 
 ### **FINALLY:**
-7. Go to your fork: https://github.com/yusstyle/muse-fullstack-dapp
+7. Go to your fork: https://github.com/yusstyle/synapse-exchange
 8. Click "Compare & pull request"
 9. Paste template from above
 10. Click "Create pull request" (2 min)
@@ -434,13 +434,13 @@ NOW  ─────────────────────────
 ## 🚀 START NOW!
 
 **👉 First step: Fork the repository**
-https://github.com/Muse-AI-Generated-Art-Marketplace/muse-fullstack-dapp/fork
+https://github.com/Synapse-Exchange/synapse-exchange/fork
 
 **⏱️ Your time investment: 5 minutes**  
 **🎁 Your reward: Points + Public Recognition + Issue Resolved**
 
 ---
 
-Muse AI-Generated Art Marketplace · Environment Configuration System · Issue #70 Resolution
+Synapse Exchange · Environment Configuration System · Issue #70 Resolution
 
 **Date**: March 27, 2026 | **Due**: March 30, 2026 | **Status**: ✅ Ready for Submission

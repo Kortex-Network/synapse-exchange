@@ -19,12 +19,12 @@ export const getArtworkMetadata = async (req: Request, res: Response, next: Next
     const artworkUrl = `${baseUrl}/artwork/${id}`
 
     const metadata = {
-      title: `${artwork.title} - Muse AI Art Marketplace`,
+      title: `${artwork.title} - Synapse Exchange`,
       description: `${artwork.description} | Price: ${artwork.price} ${artwork.currency}`,
       image: artwork.image,
       url: artworkUrl,
       type: 'website',
-      siteName: 'Muse - AI Art Marketplace',
+      siteName: 'Synapse Exchange',
       twitterCard: 'summary_large_image',
       twitterSite: '@museartmarket',
       additionalTags: {

@@ -46,7 +46,7 @@ export const tracingMiddleware = (options: {
         'http.url': req.path,
         'http.user_agent': req.headers['user-agent'],
         'http.remote_addr': req.ip,
-        'service.name': serviceName || 'muse-backend',
+        'service.name': serviceName || 'synapse-backend',
         'user.id': req.user?.publicKey
       }
     )

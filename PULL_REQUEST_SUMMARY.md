@@ -1,7 +1,7 @@
 # Pull Request: Image Optimization Implementation
 
 ## Summary
-This PR addresses issue #33: Missing Image Optimization by implementing a comprehensive image optimization solution for the Muse AI Generated Art Marketplace.
+This PR addresses issue #33: Missing Image Optimization by implementing a comprehensive image optimization solution for the Synapse Exchange.
 
 ## Changes Made
 

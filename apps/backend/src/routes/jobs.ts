@@ -242,7 +242,7 @@ router.post('/sample', async (req: express.Request, res: express.Response) => {
         type: JobType.EMAIL_NOTIFICATION,
         data: {
           to: 'user@example.com',
-          subject: 'Welcome to Muse AI Marketplace',
+          subject: 'Welcome to Synapse Exchange',
           template: 'welcome',
           userId: 'sample-user'
         }
@@ -260,7 +260,7 @@ router.post('/sample', async (req: express.Request, res: express.Response) => {
         type: JobType.SMS_NOTIFICATION,
         data: {
           to: '+15555550123',
-          message: 'Your payment has been confirmed. Thank you for using Muse.',
+          message: 'Your payment has been confirmed. Thank you for using Synapse Exchange.',
           provider: 'simulated-sms',
           userId: 'sample-user'
         }

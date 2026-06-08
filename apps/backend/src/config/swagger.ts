@@ -9,13 +9,13 @@ const swaggerOptions: swaggerJsdoc.Options = {
   definition: {
     openapi: '3.0.0',
     info: {
-      title: 'Muse API',
+      title: 'Synapse Exchange API',
       version: '1.0.0',
       description: 'AI Art Marketplace API on Stellar blockchain'
     },
     servers: [
       { url: 'http://localhost:3001/api', description: 'Development' },
-      { url: 'https://api.muse.art/api', description: 'Production' }
+      { url: 'https://api.synapse.exchange/api', description: 'Production' }
     ],
     components: {
       securitySchemes: {
@@ -32,7 +32,7 @@ const swaggerOptions: swaggerJsdoc.Options = {
             id: { type: 'string', example: '507f1f77bcf86cd799439011' },
             title: { type: 'string', example: 'Cosmic Dreams' },
             description: { type: 'string', example: 'A surrealist exploration' },
-            imageUrl: { type: 'string', example: 'https://cdn.muse.art/artworks/cosmic-dreams.png' },
+            imageUrl: { type: 'string', example: 'https://cdn.synapse.exchange/artworks/cosmic-dreams.png' },
             creator: { type: 'string', example: 'GDAT5H2I...' },
             style: { type: 'string', enum: ['digital-art', 'abstract', 'realistic'], example: 'digital-art' },
             prompt: { type: 'string', example: 'A dreamlike cosmic landscape' },
@@ -49,7 +49,7 @@ const swaggerOptions: swaggerJsdoc.Options = {
             walletAddress: { type: 'string', example: 'GDAT5H2I...' },
             displayName: { type: 'string', example: 'CryptoArtist' },
             bio: { type: 'string', example: 'Digital artist exploring AI' },
-            avatar: { type: 'string', example: 'https://cdn.muse.art/avatars/user123.png' },
+            avatar: { type: 'string', example: 'https://cdn.synapse.exchange/avatars/user123.png' },
             createdAt: { type: 'string', format: 'date-time' }
           },
           required: ['walletAddress', 'displayName']
@@ -98,7 +98,7 @@ export function setupSwagger(app: Express): void {
   app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerSpec, {
     explorer: true,
     customCss: '.swagger-ui .topbar { display: none }',
-    customSiteTitle: 'Muse API Documentation'
+    customSiteTitle: 'Synapse Exchange API Documentation'
   }))
 
   app.get('/api-docs.json', (_req: any, res: any) => {

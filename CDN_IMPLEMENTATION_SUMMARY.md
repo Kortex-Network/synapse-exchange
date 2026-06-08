@@ -167,7 +167,7 @@ A comprehensive CDN integration system has been implemented to serve static asse
 ## Architecture
 
 ```
-muse-fullstack-dapp/
+synapse-exchange/
 ├── apps/backend/
 │   └── src/
 │       ├── services/

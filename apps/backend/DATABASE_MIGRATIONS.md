@@ -2,7 +2,7 @@
 
 ## Overview
 
-This document describes the enhanced database migration system for the Muse Backend. Database migrations are scripts that manage schema changes and data consistency in MongoDB, ensuring that the database evolves in a controlled and documented manner.
+This document describes the enhanced database migration system for the Synapse Exchange Backend. Database migrations are scripts that manage schema changes and data consistency in MongoDB, ensuring that the database evolves in a controlled and documented manner.
 
 ## Why Migrations Matter
 

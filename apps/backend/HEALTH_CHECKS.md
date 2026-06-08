@@ -2,7 +2,7 @@
 
 ## Overview
 
-The Muse Backend provides comprehensive health check endpoints for monitoring service health, database connectivity, cache status, and external service availability. These endpoints are essential for:
+The Synapse Exchange Backend provides comprehensive health check endpoints for monitoring service health, database connectivity, cache status, and external service availability. These endpoints are essential for:
 
 - **Kubernetes/Container Orchestration**: Liveness and readiness probes
 - **Load Balancers**: Health checks for traffic routing
@@ -23,7 +23,7 @@ The Muse Backend provides comprehensive health check endpoints for monitoring se
 {
   "status": "healthy" | "unhealthy" | "degraded",
   "timestamp": "2024-01-01T00:00:00.000Z",
-  "service": "muse-backend",
+  "service": "synapse-backend",
   "version": "1.0.0",
   "uptime": 3600000,
   "checks": {
@@ -98,7 +98,7 @@ The Muse Backend provides comprehensive health check endpoints for monitoring se
 {
   "status": "OK",
   "timestamp": "2024-01-01T00:00:00.000Z",
-  "service": "muse-backend"
+  "service": "synapse-backend"
 }
 ```
 
@@ -239,11 +239,11 @@ curl http://localhost:3001/live
 apiVersion: v1
 kind: Pod
 metadata:
-  name: muse-backend
+  name: synapse-backend
 spec:
   containers:
   - name: backend
-    image: muse-backend:latest
+    image: synapse-backend:latest
     ports:
     - containerPort: 3001
     livenessProbe:

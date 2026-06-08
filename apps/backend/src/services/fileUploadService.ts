@@ -36,7 +36,7 @@ class FileUploadService {
 
   constructor() {
     this.region = process.env.AWS_REGION || 'us-east-1'
-    this.bucketName = process.env.AWS_S3_BUCKET || 'muse-artwork-uploads'
+    this.bucketName = process.env.AWS_S3_BUCKET || 'synapse-artwork-uploads'
 
     // Initialize AWS S3
     this.s3 = new AWS.S3({

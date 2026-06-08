@@ -2,7 +2,7 @@
 
 ## Overview
 
-This document outlines the new component composition strategy implemented to solve the monolithic component issues in the Muse AI Generated Art Marketplace. The strategy focuses on creating reusable, composable components that follow single responsibility principles.
+This document outlines the new component composition strategy implemented to solve the monolithic component issues in the Synapse Exchange AI Generated Art Marketplace. The strategy focuses on creating reusable, composable components that follow single responsibility principles.
 
 ## Problems Solved
 

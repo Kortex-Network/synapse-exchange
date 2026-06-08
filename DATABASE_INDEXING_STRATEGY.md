@@ -1,6 +1,6 @@
 # Database Indexing Strategy
 
-This document outlines the comprehensive database indexing strategy implemented for the Muse AI Art Marketplace to ensure optimal query performance on large datasets.
+This document outlines the comprehensive database indexing strategy implemented for the Synapse Exchange to ensure optimal query performance on large datasets.
 
 ## Overview
 
@@ -271,6 +271,6 @@ Regular performance reviews should be conducted to:
 
 ## Conclusion
 
-This comprehensive indexing strategy provides a solid foundation for optimal database performance in the Muse AI Art Marketplace. The indexes are designed to support current query patterns while allowing for future scalability and feature expansion.
+This comprehensive indexing strategy provides a solid foundation for optimal database performance in the Synapse Exchange. The indexes are designed to support current query patterns while allowing for future scalability and feature expansion.
 
 Regular monitoring and maintenance of these indexes will ensure continued optimal performance as the application grows and user patterns evolve.

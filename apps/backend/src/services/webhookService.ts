@@ -412,7 +412,7 @@ class WebhookService {
       url,
       headers: {
         'Content-Type': 'application/json',
-        'User-Agent': 'Muse-Webhook-Service/1.0',
+        'User-Agent': 'Synapse-Webhook-Service/1.0',
         ...headers
       },
       data: payload,

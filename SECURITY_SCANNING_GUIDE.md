@@ -2,7 +2,7 @@
 
 ## Overview
 
-The Muse DApp implements comprehensive automated security scanning using GitHub Actions CI/CD. This ensures every code change is vetted for security vulnerabilities before merging.
+The Synapse Exchange DApp implements comprehensive automated security scanning using GitHub Actions CI/CD. This ensures every code change is vetted for security vulnerabilities before merging.
 
 ## Security Scanning Components
 
@@ -218,7 +218,7 @@ graph TD
 Add this to your README.md to show security scanning status:
 
 ```markdown
-![Security Scanning](https://github.com/Muse-AI-Generated-Art-Marketplace/muse-fullstack-dapp/workflows/Automated%20Security%20Scanning/badge.svg)
+![Security Scanning](https://github.com/Synapse-Exchange/synapse-exchange/workflows/Automated%20Security%20Scanning/badge.svg)
 ```
 
 ---

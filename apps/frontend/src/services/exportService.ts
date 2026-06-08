@@ -47,7 +47,7 @@ export async function exportTransactions(options: ExportOptions): Promise<void> 
   // For CSV / JSON: trigger file download
   const blob = await response.blob()
   const ext = options.format
-  const filename = `muse-transactions-${new Date().toISOString().slice(0, 10)}.${ext}`
+  const filename = `synapse-transactions-${new Date().toISOString().slice(0, 10)}.${ext}`
   const url = URL.createObjectURL(blob)
   const a = document.createElement('a')
   a.href = url

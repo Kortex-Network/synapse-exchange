@@ -67,10 +67,10 @@ class TracingService {
   private activeSpans: Map<string, TraceSpan> = new Map()
   private completedSpans: TraceSpan[] = []
   private maxCompletedSpans: number = 10000
-  private serviceName: string = 'muse-backend'
+  private serviceName: string = 'synapse-backend'
 
   constructor() {
-    this.serviceName = process.env.SERVICE_NAME || 'muse-backend'
+    this.serviceName = process.env.SERVICE_NAME || 'synapse-backend'
   }
 
   // Start a new trace span

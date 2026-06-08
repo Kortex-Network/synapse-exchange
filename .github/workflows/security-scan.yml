@@ -147,7 +147,7 @@ jobs:
         run: npm ci
 
       - name: Run frontend security lint via workspace script
-        run: npm run lint:security --workspace=muse-frontend
+        run: npm run lint:security --workspace=synapse-frontend
 
   # Job 6: Security Linting (Web)
   security-lint-web:

@@ -37,7 +37,7 @@ export function NotificationProvider({ children }: { children: ReactNode }) {
 
   // Load notifications from localStorage on mount
   useEffect(() => {
-    const stored = localStorage.getItem('muse_notifications')
+    const stored = localStorage.getItem('synapse_notifications')
     if (stored) {
       try {
         const parsed = JSON.parse(stored)
@@ -54,7 +54,7 @@ export function NotificationProvider({ children }: { children: ReactNode }) {
   // Save notifications to localStorage whenever they change
   useEffect(() => {
     if (notifications.length > 0) {
-      localStorage.setItem('muse_notifications', JSON.stringify(notifications))
+      localStorage.setItem('synapse_notifications', JSON.stringify(notifications))
     }
   }, [notifications])
 
@@ -103,7 +103,7 @@ export function NotificationProvider({ children }: { children: ReactNode }) {
 
   const clearAll = () => {
     setNotifications([])
-    localStorage.removeItem('muse_notifications')
+    localStorage.removeItem('synapse_notifications')
   }
 
   const showToast = (notification: Omit<Notification, 'id' | 'timestamp' | 'read'>) => {

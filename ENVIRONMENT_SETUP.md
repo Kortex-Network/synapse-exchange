@@ -1,6 +1,6 @@
 # Environment Configuration Guide
 
-This document provides comprehensive instructions for configuring environment variables for the Muse AI Art Marketplace fullstack dApp.
+This document provides comprehensive instructions for configuring environment variables for the Synapse Exchange fullstack dApp.
 
 ## Table of Contents
 
@@ -20,8 +20,8 @@ This document provides comprehensive instructions for configuring environment va
 
 ### 1. Clone and Setup
 ```bash
-git clone https://github.com/Muse-AI-Generated-Art-Marketplace/muse-fullstack-dapp.git
-cd muse-fullstack-dapp
+git clone https://github.com/Synapse-Exchange/synapse-exchange.git
+cd synapse-exchange
 npm install
 ```
 
@@ -97,7 +97,7 @@ FRONTEND_URL=http://localhost:3000     # Frontend URL for CORS
 
 #### Database
 ```env
-MONGODB_URI=mongodb://localhost:27017/muse
+MONGODB_URI=mongodb://localhost:27017/synapse-exchange
 ```
 
 The backend uses MongoDB for storing:
@@ -109,11 +109,11 @@ The backend uses MongoDB for storing:
 - Collections
 
 **MongoDB Setup Options:**
-- **Local**: Install MongoDB locally and use `mongodb://localhost:27017/muse`
+- **Local**: Install MongoDB locally and use `mongodb://localhost:27017/synapse-exchange`
 - **Docker**: Run MongoDB in Docker: `docker run -d -p 27017:27017 mongo:6`
 - **MongoDB Atlas**: Create free cluster at https://www.mongodb.com/cloud/atlas
   ```
-  mongodb+srv://username:password@cluster.mongodb.net/muse?retryWrites=true&w=majority
+  mongodb+srv://username:password@cluster.mongodb.net/synapse-exchange?retryWrites=true&w=majority
   ```
 
 #### Authentication
@@ -312,7 +312,7 @@ REPORT_GAS=true
 
 ```env
 # Multiple origins
-CORS_ORIGINS=http://localhost:3000,https://app.muse.com,https://staging.muse.com
+CORS_ORIGINS=http://localhost:3000,https://app.synapse.exchange,https://staging.synapse.exchange
 ```
 
 ### 📋 Database Security
@@ -344,7 +344,7 @@ mongosh  # or mongo for older versions
 docker run -d -p 27017:27017 mongo:6
 
 # Update .env with correct URI
-MONGODB_URI=mongodb://localhost:27017/muse
+MONGODB_URI=mongodb://localhost:27017/synapse-exchange
 ```
 
 #### 3. "Redis connection error"
@@ -363,8 +363,8 @@ docker run -d -p 6379:6379 redis:7
 ls -la apps/backend/.env
 
 # Verify syntax (no spaces around =)
-MONGODB_URI=mongodb://localhost:27017/muse  # ✓ Correct
-MONGODB_URI = mongodb://localhost:27017/muse  # ✗ Wrong
+MONGODB_URI=mongodb://localhost:27017/synapse-exchange  # ✓ Correct
+MONGODB_URI = mongodb://localhost:27017/synapse-exchange  # ✗ Wrong
 ```
 
 #### 5. Frontend can't reach backend
@@ -413,7 +413,7 @@ cd apps/frontend && npm run dev
 # apps/backend/.env (Development)
 NODE_ENV=development
 PORT=3001
-MONGODB_URI=mongodb://localhost:27017/muse
+MONGODB_URI=mongodb://localhost:27017/synapse-exchange
 REDIS_URL=redis://localhost:6379
 LOG_LEVEL=debug
 ```
@@ -465,7 +465,7 @@ services:
     environment:
       NODE_ENV: development
       PORT: 3001
-      MONGODB_URI: mongodb://admin:password@mongodb:27017/muse
+      MONGODB_URI: mongodb://admin:password@mongodb:27017/synapse-exchange
       REDIS_URL: redis://redis:6379
     depends_on:
       - mongodb
@@ -512,7 +512,7 @@ This checks:
 
 For issues or questions:
 1. Check [Troubleshooting](#troubleshooting) section
-2. Review [GitHub Issues](https://github.com/Muse-AI-Generated-Art-Marketplace/muse-fullstack-dapp/issues)
+2. Review [GitHub Issues](https://github.com/Synapse-Exchange/synapse-exchange/issues)
 3. Create a new issue with `[ENVIRONMENT]` tag
 
 ---

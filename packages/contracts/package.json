@@ -1,7 +1,7 @@
 {
-  "name": "muse-contracts",
+  "name": "synapse-contracts",
   "version": "1.0.0",
-  "description": "Muse Smart Contracts - AI Art Marketplace on Stellar",
+  "description": "Synapse Exchange Smart Contracts - AI Art Marketplace on Stellar",
   "scripts": {
     "build": "stellar contract build",
     "test": "stellar contract test",

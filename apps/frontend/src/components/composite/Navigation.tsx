@@ -40,13 +40,13 @@ export function Navigation() {
             <Link
               to="/"
               className="flex items-center space-x-2 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary-500 rounded-md"
-              aria-label="Muse Home"
+              aria-label="Synapse Exchange Home"
               onClick={closeMenu}
             >
               <div className="h-8 w-8 bg-primary-600 rounded-lg flex items-center justify-center text-white">
                 M
               </div>
-              <span className="text-xl font-bold text-secondary-900 hidden sm:block">Muse</span>
+              <span className="text-xl font-bold text-secondary-900 hidden sm:block">Synapse</span>
             </Link>
           </div>
 

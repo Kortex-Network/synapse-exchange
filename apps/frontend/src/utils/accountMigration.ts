@@ -93,7 +93,7 @@ export interface AccountData {
   metadata: {
     exportedAt: string
     version: string
-    source: 'muse-dapp'
+    source: 'synapse-exchange'
     checksum: string
   }
 }
@@ -134,9 +134,9 @@ export interface RecoveryData {
 }
 
 class AccountMigrationManager {
-  private readonly ENCRYPTION_KEY = 'muse-account-migration-key'
-  private readonly MIGRATION_HISTORY_KEY = 'muse-migration-history'
-  private readonly RECOVERY_DATA_KEY = 'muse-recovery-data'
+  private readonly ENCRYPTION_KEY = 'synapse-account-migration-key'
+  private readonly MIGRATION_HISTORY_KEY = 'synapse-migration-history'
+  private readonly RECOVERY_DATA_KEY = 'synapse-recovery-data'
   private readonly CURRENT_VERSION = '1.0.0'
 
   // Generate a secure encryption key
@@ -217,7 +217,7 @@ class AccountMigrationManager {
       metadata: {
         exportedAt: timestamp,
         version: this.CURRENT_VERSION,
-        source: 'muse-dapp',
+        source: 'synapse-exchange',
         checksum: ''
       }
     }
@@ -542,7 +542,7 @@ class AccountMigrationManager {
     
     const a = document.createElement('a')
     a.href = url
-    a.download = filename || `muse-account-export-${new Date().toISOString().split('T')[0]}.json`
+    a.download = filename || `synapse-account-export-${new Date().toISOString().split('T')[0]}.json`
     document.body.appendChild(a)
     a.click()
     document.body.removeChild(a)

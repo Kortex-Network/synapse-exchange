@@ -1,6 +1,6 @@
 # Caching Strategy Implementation
 
-This document outlines the comprehensive caching strategy implemented to resolve issue #34 "No Caching Strategy" in the Muse AI Generated Art Marketplace.
+This document outlines the comprehensive caching strategy implemented to resolve issue #34 "No Caching Strategy" in the Synapse Exchange.
 
 ## Overview
 

@@ -10,7 +10,7 @@ describe('Health Check Endpoints', () => {
 
       expect(response.body).toHaveProperty('status')
       expect(response.body).toHaveProperty('timestamp')
-      expect(response.body).toHaveProperty('service', 'muse-backend')
+      expect(response.body).toHaveProperty('service', 'synapse-backend')
       expect(response.body).toHaveProperty('uptime')
       expect(response.body).toHaveProperty('checks')
       expect(response.body).toHaveProperty('summary')
@@ -79,7 +79,7 @@ describe('Health Check Endpoints', () => {
 
       expect(response.body).toHaveProperty('status', 'OK')
       expect(response.body).toHaveProperty('timestamp')
-      expect(response.body).toHaveProperty('service', 'muse-backend')
+      expect(response.body).toHaveProperty('service', 'synapse-backend')
     })
   })
 })

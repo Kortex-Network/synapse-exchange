@@ -40,7 +40,7 @@ export class VerificationService {
     const timestamp = Date.now()
     const expiresAt = timestamp + 5 * 60 * 1000 // 5 minutes expiration
 
-    const message = `Welcome to Muse AI Art Marketplace!
+    const message = `Welcome to Synapse Exchange!
 
 Please sign this message to verify your wallet address and authenticate.
 

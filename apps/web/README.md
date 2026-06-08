@@ -1,6 +1,6 @@
-# Muse Web Application
+# Synapse Exchange Web Application
 
-A modern web application built with TypeScript, React, Vite, and Tailwind CSS for the Muse AI Art Marketplace.
+A modern web application built with TypeScript, React, Vite, and Tailwind CSS for the Synapse Exchange AI Art Marketplace.
 
 ## Features
 
@@ -60,7 +60,7 @@ apps/web/
 
 ## Usage
 
-This application provides a foundation for building the Muse AI Art Marketplace web interface. The current implementation includes:
+This application provides a foundation for building the Synapse Exchange web interface. The current implementation includes:
 
 - A responsive layout using Tailwind CSS
 - Interactive components demonstrating React hooks
@@ -78,7 +78,7 @@ When making changes:
 
 ## Integration
 
-This web app is part of the Muse monorepo and can be run alongside other applications:
+This web app is part of the Synapse Exchange monorepo and can be run alongside other applications:
 
 ```bash
 # Run all applications together

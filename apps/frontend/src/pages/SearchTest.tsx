@@ -38,8 +38,8 @@ export default function SearchTest() {
     <div className="p-10 max-w-6xl mx-auto bg-white min-h-screen">
       <MetaTags
         title="Explore AI Art"
-        description="Browse and collect unique AI-generated artworks on Muse — the decentralized art marketplace powered by Stellar. Discover digital art, mint NFTs, and connect with creators."
-        canonicalUrl="https://muse.art/explore"
+        description="Browse and collect unique AI-generated artworks on Synapse Exchange — the decentralized art marketplace powered by Stellar. Discover digital art, mint NFTs, and connect with creators."
+        canonicalUrl="https://synapse.exchange/explore"
         structuredData={buildWebSiteSchema()}
       />
       <h1 className="text-2xl font-bold mb-6">{t('common.verification_page')}</h1>

@@ -1,7 +1,7 @@
 # Health Check Implementation - Issue #43
 
 ## Summary
-Implemented comprehensive health check endpoints for the Muse fullstack dapp to monitor database and external service dependencies, replacing the basic health check that only returned OK status.
+Implemented comprehensive health check endpoints for the Synapse Exchange fullstack dapp to monitor database and external service dependencies, replacing the basic health check that only returned OK status.
 
 ## New Endpoints
 
@@ -16,7 +16,7 @@ Implemented comprehensive health check endpoints for the Muse fullstack dapp to 
 {
   "status": "healthy|unhealthy|degraded",
   "timestamp": "2024-03-26T01:00:00.000Z",
-  "service": "muse-backend",
+  "service": "synapse-backend",
   "version": "1.0.0",
   "uptime": 12345,
   "checks": {
@@ -114,7 +114,7 @@ Implemented comprehensive health check endpoints for the Muse fullstack dapp to 
 {
   "status": "OK",
   "timestamp": "2024-03-26T01:00:00.000Z",
-  "service": "muse-backend"
+  "service": "synapse-backend"
 }
 ```
 

@@ -1,6 +1,6 @@
 # Database Models Documentation
 
-This document provides a comprehensive overview of all Mongoose models defined for the Muse AI Art Marketplace.
+This document provides a comprehensive overview of all Mongoose models defined for the Synapse Exchange AI Art Marketplace.
 
 ## Existing Models (Previously Defined)
 

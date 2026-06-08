@@ -54,8 +54,8 @@ This guide provides step-by-step instructions to test the CDN integration implem
 npm install
 
 # Or install individually
-npm install --workspace=muse-backend
-npm install --workspace=muse-frontend
+npm install --workspace=synapse-backend
+npm install --workspace=synapse-frontend
 ```
 
 ### 3. Start Services

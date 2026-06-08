@@ -1,7 +1,7 @@
 {
-  "name": "muse-backend",
+  "name": "synapse-backend",
   "version": "1.0.0",
-  "description": "Muse Backend API - AI Art Marketplace on Stellar",
+  "description": "Synapse Exchange Backend API - AI Art Marketplace on Stellar",
   "main": "dist/index.js",
   "scripts": {
     "dev": "tsx watch src/index.ts",

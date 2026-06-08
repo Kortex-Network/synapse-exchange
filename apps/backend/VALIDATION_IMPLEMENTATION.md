@@ -2,7 +2,7 @@
 
 ## Overview
 
-This document describes the centralized request validation implementation using Zod schemas for all API endpoints in the Muse AI Generated Art Marketplace backend.
+This document describes the centralized request validation implementation using Zod schemas for all API endpoints in the Synapse Exchange backend.
 
 ## Architecture
 

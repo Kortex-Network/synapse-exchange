@@ -87,7 +87,7 @@
 ## File Structure
 
 ```
-muse-fullstack-dapp/
+synapse-exchange/
 ├── apps/
 │   ├── backend/src/
 │   │   ├── services/

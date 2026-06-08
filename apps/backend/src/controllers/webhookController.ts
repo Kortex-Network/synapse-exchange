@@ -48,7 +48,7 @@ function hashSecret(raw: string): string {
 
 /**
  * Sign an outgoing payload with HMAC-SHA256 using the RAW secret (not the
- * hash). The signature is sent as `X-Muse-Signature: sha256=<hex>` so
+ * hash). The signature is sent as `X-Synapse-Signature: sha256=<hex>` so
  * subscribers can verify authenticity.
  */
 function signPayload(rawSecret: string, payload: string): string {
@@ -84,10 +84,10 @@ async function deliverToEndpoint(
         timeout: DELIVERY_TIMEOUT_MS,
         headers: {
           'Content-Type':       'application/json',
-          'X-Muse-Event':       event,
-          'X-Muse-Signature':   signatureHeader,
-          'X-Muse-Timestamp':   Date.now().toString(),
-          'User-Agent':         'Muse-Webhook/1.0',
+          'X-Synapse-Event':       event,
+          'X-Synapse-Signature':   signatureHeader,
+          'X-Synapse-Timestamp':   Date.now().toString(),
+          'User-Agent':         'Synapse-Webhook/1.0',
         },
         validateStatus: () => true, // handle all status codes ourselves
       })
@@ -322,7 +322,7 @@ export async function testWebhook(
     const payload = JSON.stringify({
       event:     'webhook.test',
       timestamp: new Date().toISOString(),
-      data:      { message: 'This is a test delivery from Muse.' },
+      data:      { message: 'This is a test delivery from Synapse Exchange.' },
     })
     const signature = signPayload(webhook.secretHash, payload)
 

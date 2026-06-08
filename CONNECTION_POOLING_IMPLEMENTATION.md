@@ -2,7 +2,7 @@
 
 ## Overview
 
-This document outlines the implementation of optimized database connection pooling for the Muse DApp backend. The implementation improves performance and handles concurrent requests efficiently through proper connection management.
+This document outlines the implementation of optimized database connection pooling for the Synapse Exchange DApp backend. The implementation improves performance and handles concurrent requests efficiently through proper connection management.
 
 ## Implementation Details
 
@@ -234,6 +234,6 @@ logger.info('Connected to MongoDB with connection pooling')
 
 ## Conclusion
 
-This connection pooling implementation provides a robust, scalable, and monitorable database connection solution for the Muse DApp. It significantly improves performance under concurrent load while providing comprehensive monitoring and debugging capabilities.
+This connection pooling implementation provides a robust, scalable, and monitorable database connection solution for the Synapse Exchange DApp. It significantly improves performance under concurrent load while providing comprehensive monitoring and debugging capabilities.
 
 The implementation follows MongoDB best practices and includes proper error handling, retry mechanisms, and performance optimization features suitable for production environments.

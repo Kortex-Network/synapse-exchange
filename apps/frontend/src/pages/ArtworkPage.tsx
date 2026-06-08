@@ -83,7 +83,7 @@ export function ArtworkPage() {
         title={artworkData.title}
         description={artworkData.description}
         image={artworkData.image}
-        canonicalUrl={`https://muse.art/artwork/${id}`}
+        canonicalUrl={`https://synapse.exchange/artwork/${id}`}
         type="article"
         twitterCard="summary_large_image"
         structuredData={buildArtworkSchema({

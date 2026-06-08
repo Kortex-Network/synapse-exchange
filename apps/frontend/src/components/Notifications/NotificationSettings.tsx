@@ -71,10 +71,10 @@ export function NotificationSettings() {
 
   useEffect(() => {
     try {
-      const savedPreferences = localStorage.getItem('muse_notification_preferences')
-      const savedEmail = localStorage.getItem('muse_email_notifications')
-      const savedPush = localStorage.getItem('muse_push_notifications')
-      const savedSound = localStorage.getItem('muse_sound_enabled')
+      const savedPreferences = localStorage.getItem('synapse_notification_preferences')
+      const savedEmail = localStorage.getItem('synapse_email_notifications')
+      const savedPush = localStorage.getItem('synapse_push_notifications')
+      const savedSound = localStorage.getItem('synapse_sound_enabled')
 
       if (savedPreferences) {
         setPreferences(JSON.parse(savedPreferences))
@@ -117,10 +117,10 @@ export function NotificationSettings() {
   }
 
   const saveSettings = () => {
-    localStorage.setItem('muse_notification_preferences', JSON.stringify(preferences))
-    localStorage.setItem('muse_email_notifications', JSON.stringify(emailNotifications))
-    localStorage.setItem('muse_push_notifications', JSON.stringify(pushNotifications))
-    localStorage.setItem('muse_sound_enabled', JSON.stringify(soundEnabled))
+    localStorage.setItem('synapse_notification_preferences', JSON.stringify(preferences))
+    localStorage.setItem('synapse_email_notifications', JSON.stringify(emailNotifications))
+    localStorage.setItem('synapse_push_notifications', JSON.stringify(pushNotifications))
+    localStorage.setItem('synapse_sound_enabled', JSON.stringify(soundEnabled))
     setStatusMessage('Notification settings saved successfully.')
 
     window.setTimeout(() => {

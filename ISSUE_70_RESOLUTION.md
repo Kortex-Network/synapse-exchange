@@ -10,7 +10,7 @@
 
 ## 📋 Summary of Changes
 
-This resolution provides comprehensive environment configuration support for the Muse fullstack dApp across all components (frontend, backend, smart contracts) and environments (development, testing, production).
+This resolution provides comprehensive environment configuration support for the Synapse Exchange fullstack dApp across all components (frontend, backend, smart contracts) and environments (development, testing, production).
 
 ---
 

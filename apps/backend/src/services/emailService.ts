@@ -95,7 +95,7 @@ class SendGridProvider implements EmailProvider {
     try {
       const msg = {
         to: data.to,
-        from: process.env.SENDGRID_FROM || 'noreply@muse.art',
+        from: process.env.SENDGRID_FROM || 'noreply@synapse.exchange',
         subject: data.template.subject,
         html: data.template.html,
         text: data.template.text
@@ -257,7 +257,7 @@ class EmailService {
           </div>
           
           <div style="text-align: center; padding: 20px; color: #999; font-size: 12px;">
-            <p>This is an automated notification from Muse Art Marketplace.</p>
+            <p>This is an automated notification from Synapse Exchange.</p>
             <p>If you didn't expect this email, please contact support.</p>
           </div>
         </div>
@@ -303,7 +303,7 @@ class EmailService {
           </div>
           
           <div style="text-align: center; padding: 20px; color: #999; font-size: 12px;">
-            <p>This is an automated notification from Muse Art Marketplace.</p>
+            <p>This is an automated notification from Synapse Exchange.</p>
             <p>If you didn't expect this email, please contact support.</p>
           </div>
         </div>
@@ -349,7 +349,7 @@ class EmailService {
           </div>
           
           <div style="text-align: center; padding: 20px; color: #999; font-size: 12px;">
-            <p>This is an automated notification from Muse Art Marketplace.</p>
+            <p>This is an automated notification from Synapse Exchange.</p>
             <p>If you didn't expect this email, please contact support.</p>
           </div>
         </div>
@@ -394,7 +394,7 @@ class EmailService {
           </div>
           
           <div style="text-align: center; padding: 20px; color: #999; font-size: 12px;">
-            <p>This is an automated notification from Muse Art Marketplace.</p>
+            <p>This is an automated notification from Synapse Exchange.</p>
             <p>If you didn't expect this email, please contact support.</p>
           </div>
         </div>
@@ -440,7 +440,7 @@ class EmailService {
           </div>
           
           <div style="text-align: center; padding: 20px; color: #999; font-size: 12px;">
-            <p>This is an automated notification from Muse Art Marketplace.</p>
+            <p>This is an automated notification from Synapse Exchange.</p>
             <p>If you didn't expect this email, please contact support.</p>
           </div>
         </div>
@@ -486,7 +486,7 @@ class EmailService {
           </div>
           
           <div style="text-align: center; padding: 20px; color: #999; font-size: 12px;">
-            <p>This is an automated notification from Muse Art Marketplace.</p>
+            <p>This is an automated notification from Synapse Exchange.</p>
             <p>If you didn't expect this email, please contact support.</p>
           </div>
         </div>

@@ -1,6 +1,6 @@
 # CDN Integration Setup Guide
 
-This guide explains how to configure and use the CDN integration for faster global content delivery in the Muse DApp.
+This guide explains how to configure and use the CDN integration for faster global content delivery in the Synapse Exchange DApp.
 
 ## Overview
 

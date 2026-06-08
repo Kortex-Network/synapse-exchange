@@ -2,13 +2,13 @@
 
 ## Reporting a Vulnerability
 
-We take the security of the Muse AI Art Marketplace seriously. If you believe you have found a security vulnerability, please report it to us as described below.
+We take the security of the Synapse Exchange seriously. If you believe you have found a security vulnerability, please report it to us as described below.
 
 ### How to Report a Security Issue
 
 **DO NOT** open a public GitHub issue for security issues. Instead, please email us directly:
 
-📧 **Security Team Email**: security@muse-art-marketplace.example.com
+📧 **Security Team Email**: security@synapse.exchange
 
 Please include:
 - A description of the vulnerability and its impact

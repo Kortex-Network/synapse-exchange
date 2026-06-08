@@ -55,7 +55,7 @@ function toPDF(transactions: any[], dateRange: { start?: string; end?: string })
 <html>
 <head>
 <meta charset="utf-8">
-<title>Muse Payment History</title>
+<title>Synapse Exchange Payment History</title>
 <style>
   body { font-family: Arial, sans-serif; margin: 40px; color: #111; }
   h1 { color: #6d28d9; }
@@ -68,13 +68,13 @@ function toPDF(transactions: any[], dateRange: { start?: string; end?: string })
 </style>
 </head>
 <body>
-<h1>Muse – Payment History</h1>
+<h1>Synapse Exchange – Payment History</h1>
 <p class="meta">${rangeLabel} &nbsp;|&nbsp; Generated: ${new Date().toLocaleString()} &nbsp;|&nbsp; Total: ${transactions.length} transactions</p>
 <table>
   <thead><tr><th>Date</th><th>Hash</th><th>Type</th><th>Status</th><th>Amount</th><th>Fee</th></tr></thead>
   <tbody>${rows}</tbody>
 </table>
-<p class="footer">Muse AI Art Marketplace – Confidential</p>
+<p class="footer">Synapse Exchange – Confidential</p>
 </body>
 </html>`
 }
@@ -94,7 +94,7 @@ export const exportController = {
         .limit(10000)
         .lean()
 
-      const filename = `muse-transactions-${Date.now()}`
+      const filename = `synapse-transactions-${Date.now()}`
 
       if (format === 'json') {
         res.setHeader('Content-Type', 'application/json')

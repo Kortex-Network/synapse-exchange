@@ -2,7 +2,7 @@
 
 ## Quick Start
 
-The stepper component is now integrated into your Muse DApp. Here's how to use it:
+The stepper component is now integrated into your Synapse Exchange DApp. Here's how to use it:
 
 ## 1. Access the Stepper
 

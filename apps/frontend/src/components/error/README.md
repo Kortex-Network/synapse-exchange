@@ -1,6 +1,6 @@
 # Error Boundary Implementation
 
-This directory contains the enhanced error boundary system for the Muse frontend application. The implementation provides comprehensive error handling with user-friendly error messages and recovery options.
+This directory contains the enhanced error boundary system for the Synapse Exchange frontend application. The implementation provides comprehensive error handling with user-friendly error messages and recovery options.
 
 ## Components
 

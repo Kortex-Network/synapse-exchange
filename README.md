@@ -1,6 +1,6 @@
-# muse-fullstack-dapp
+# synapse-exchange
 
-Complete monorepo for the Muse AI Art Marketplace. Includes React frontend, Node.js backend, and Rust smart contracts for decentralized art commerce.
+Complete monorepo for the Synapse Exchange AI Art Marketplace. Includes React frontend, Node.js backend, and Rust smart contracts for decentralized art commerce.
 
 ## 🚀 Quick Start
 
@@ -12,8 +12,8 @@ Complete monorepo for the Muse AI Art Marketplace. Includes React frontend, Node
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/Muse-AI-Generated-Art-Marketplace/muse-fullstack-dapp.git
-cd muse-fullstack-dapp
+git clone https://github.com/Synapse-Exchange/synapse-exchange.git
+cd synapse-exchange
 ```
 
 ### 2. Install Dependencies
@@ -50,7 +50,7 @@ npm run dev
 This starts:
 - **Frontend**: http://localhost:3000
 - **Backend**: http://localhost:3001
-- **MongoDB**: Required at `mongodb://localhost:27017/muse`
+- **MongoDB**: Required at `mongodb://localhost:27017/synapse-exchange`
 
 ---
 
@@ -65,7 +65,7 @@ PORT=3001
 NODE_ENV=development
 
 # Database
-MONGODB_URI=mongodb://localhost:27017/muse
+MONGODB_URI=mongodb://localhost:27017/synapse-exchange
 
 # Authentication
 JWT_SECRET=your_secure_secret_here_min_32_chars
@@ -106,7 +106,7 @@ docker run -d -p 6379:6379 --name redis redis:7
 ## 📁 Project Structure
 
 ```
-muse-fullstack-dapp/
+synapse-exchange/
 ├── apps/
 │   ├── backend/           # Express.js REST API
 │   ├── frontend/          # React + TypeScript + Vite
@@ -179,8 +179,8 @@ npm run clean
 npm run test
 
 # Run specific workspace tests
-npm run test --workspace=muse-backend
-npm run test --workspace=muse-frontend
+npm run test --workspace=synapse-backend
+npm run test --workspace=synapse-frontend
 ```
 
 ### Backend Development
@@ -207,7 +207,7 @@ npm run preview      # Preview production build
 
 ### Security Headers Configuration
 
-The Muse DApp implements comprehensive security headers using Helmet middleware to protect against common web vulnerabilities:
+The Synapse Exchange DApp implements comprehensive security headers using Helmet middleware to protect against common web vulnerabilities:
 
 #### Content Security Policy (CSP)
 - **Purpose**: Prevents Cross-Site Scripting (XSS) attacks and data injection
@@ -339,7 +339,7 @@ docker run -d -p 27017:27017 \
 4. Update `MONGODB_URI` in `.env`
 
 ```env
-MONGODB_URI=mongodb+srv://user:password@cluster.mongodb.net/muse?retryWrites=true&w=majority
+MONGODB_URI=mongodb+srv://user:password@cluster.mongodb.net/synapse-exchange?retryWrites=true&w=majority
 ```
 
 ---
@@ -419,7 +419,7 @@ mongosh
 docker run -d -p 27017:27017 mongo:6
 
 # Update .env
-MONGODB_URI=mongodb://localhost:27017/muse
+MONGODB_URI=mongodb://localhost:27017/synapse-exchange
 ```
 
 **3. "JWT_SECRET undefined"**
@@ -481,8 +481,8 @@ MIT License - See [LICENSE](LICENSE) file for details
 For issues and questions:
 
 1. **Check Documentation**: [ENVIRONMENT_SETUP.md](ENVIRONMENT_SETUP.md)
-2. **GitHub Issues**: [Report issues](https://github.com/Muse-AI-Generated-Art-Marketplace/muse-fullstack-dapp/issues)
-3. **Discussions**: [Ask questions](https://github.com/Muse-AI-Generated-Art-Marketplace/muse-fullstack-dapp/discussions)
+2. **GitHub Issues**: [Report issues](https://github.com/Synapse-Exchange/synapse-exchange/issues)
+3. **Discussions**: [Ask questions](https://github.com/Synapse-Exchange/synapse-exchange/discussions)
 
 ---
 

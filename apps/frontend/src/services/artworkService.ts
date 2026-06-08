@@ -61,7 +61,7 @@ export interface CreateArtworkForm {
 }
 
 const getAuthHeaders = (): Record<string, string> => {
-  const token = localStorage.getItem('muse_auth_token')
+  const token = localStorage.getItem('synapse_auth_token')
   return token ? { Authorization: `Bearer ${token}` } : {}
 }
 
@@ -261,7 +261,7 @@ const DEFAULT_PROFILE_ADDRESS = 'GCXK...R7YN'
 
 const buildDefaultProfile = (): UserProfile => ({
   address: DEFAULT_PROFILE_ADDRESS,
-  username: 'Muse Artist',
+  username: 'Synapse Artist',
   bio: 'AI art collector and creator exploring surreal and futuristic themes.',
   joinedAt: '2025-08-12T10:00:00Z',
   stats: {

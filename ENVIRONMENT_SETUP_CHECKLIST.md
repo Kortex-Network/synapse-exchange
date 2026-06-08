@@ -2,7 +2,7 @@
 # ENVIRONMENT SETUP CHECKLIST
 # ============================================================================
 # Use this checklist to ensure all environment variables are properly configured
-# for each component of the Muse dApp
+# for each component of the Synapse Exchange dApp
 #
 # Date Started: ___________________
 # Date Completed: ___________________
@@ -90,7 +90,7 @@
 
 - [ ] VITE_API_URL points to backend
   - [ ] Development: http://localhost:3001
-  - [ ] Production: api.muse.example.com
+  - [ ] Production: api.synapse.example.com
 - [ ] VITE_ENVIRONMENT set
 - [ ] VITE_SENTRY_DSN (optional)
   - [ ] Sentry project created
@@ -160,14 +160,14 @@ Example of CORRECT formatting:
 ```env
 JWT_SECRET=abcdef123456789...  # Correct
 PORT=3001                       # Correct
-MONGODB_URI=mongodb://localhost:27017/muse  # Correct
+MONGODB_URI=mongodb://localhost:27017/synapse-exchange  # Correct
 ```
 
 Example of INCORRECT formatting:
 ```env
 JWT_SECRET = abcdef123456789   # Wrong (spaces around =)
 PORT = "3001"                  # Wrong (unnecessary quotes)
-MONGODB_URI: mongodb://localhost:27017/muse  # Wrong (uses :)
+MONGODB_URI: mongodb://localhost:27017/synapse-exchange  # Wrong (uses :)
 ```
 
 ### Deployment Readiness

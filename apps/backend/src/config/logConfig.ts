@@ -41,6 +41,6 @@ export const logConfig: LogConfig = {
     ? process.env.LOG_TO_FILE === 'true'
     : isProd,
   enableHttp: process.env.LOG_ENABLE_HTTP !== 'false' && !isTest,
-  serviceName: process.env.SERVICE_NAME ?? 'muse-backend',
+  serviceName: process.env.SERVICE_NAME ?? 'synapse-backend',
   serviceVersion: process.env.npm_package_version ?? '1.0.0',
 }

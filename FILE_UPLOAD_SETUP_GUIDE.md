@@ -2,7 +2,7 @@
 
 ## Quick Start
 
-This guide will help you set up the file upload functionality for the Muse AI Art Marketplace.
+This guide will help you set up the file upload functionality for the Synapse Exchange.
 
 ## Prerequisites
 
@@ -25,7 +25,7 @@ npm install
 #### Create S3 Bucket
 ```bash
 aws s3api create-bucket \
-  --bucket muse-artwork-uploads \
+  --bucket synapse-artwork-uploads \
   --region us-east-1
 ```
 
@@ -45,7 +45,7 @@ Create a file `cors-config.json`:
 Apply CORS configuration:
 ```bash
 aws s3api put-bucket-cors \
-  --bucket muse-artwork-uploads \
+  --bucket synapse-artwork-uploads \
   --cors-configuration file://cors-config.json
 ```
 
@@ -60,7 +60,7 @@ Create a file `bucket-policy.json`:
       "Effect": "Allow",
       "Principal": "*",
       "Action": "s3:GetObject",
-      "Resource": "arn:aws:s3:::muse-artwork-uploads/*"
+      "Resource": "arn:aws:s3:::synapse-artwork-uploads/*"
     }
   ]
 }
@@ -69,7 +69,7 @@ Create a file `bucket-policy.json`:
 Apply bucket policy:
 ```bash
 aws s3api put-bucket-policy \
-  --bucket muse-artwork-uploads \
+  --bucket synapse-artwork-uploads \
   --policy file://bucket-policy.json
 ```
 
@@ -84,7 +84,7 @@ Update your `.env` file with your AWS credentials:
 ```env
 # AWS S3 Configuration
 AWS_REGION=us-east-1
-AWS_S3_BUCKET=muse-artwork-uploads
+AWS_S3_BUCKET=synapse-artwork-uploads
 AWS_ACCESS_KEY_ID=your_aws_access_key_id_here
 AWS_SECRET_ACCESS_KEY=your_aws_secret_access_key_here
 
@@ -250,11 +250,11 @@ Ensure all production environment variables are set:
 aws sts get-caller-identity
 
 # Test S3 access
-aws s3 ls s3://muse-artwork-uploads
+aws s3 ls s3://synapse-artwork-uploads
 
 # Check bucket configuration
-aws s3api get-bucket-cors --bucket muse-artwork-uploads
-aws s3api get-bucket-policy --bucket muse-artwork-uploads
+aws s3api get-bucket-cors --bucket synapse-artwork-uploads
+aws s3api get-bucket-policy --bucket synapse-artwork-uploads
 ```
 
 ## Monitoring and Logging

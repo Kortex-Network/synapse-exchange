@@ -118,7 +118,7 @@ export const database = DatabaseConnection.getInstance()
 
 // Export connection function for easy use
 export const connectDatabase = async (): Promise<void> => {
-  const uri = process.env.DATABASE_URL || process.env.MONGODB_URI || 'mongodb://localhost:27017/muse-dapp'
+  const uri = process.env.DATABASE_URL || process.env.MONGODB_URI || 'mongodb://localhost:27017/synapse-exchange'
   
   const config: DatabaseConfig = {
     uri,

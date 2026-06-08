@@ -2,7 +2,7 @@
 
 ## Overview
 
-This document describes the complete email notification system implemented for the Muse AI Generated Art Marketplace. The system sends automated email notifications to users for important events like sales, bids, and auction activities.
+This document describes the complete email notification system implemented for the Synapse Exchange. The system sends automated email notifications to users for important events like sales, bids, and auction activities.
 
 ## Architecture
 
@@ -67,11 +67,11 @@ SMTP_PORT=587
 SMTP_SECURE=false
 SMTP_USER=your-email@gmail.com
 SMTP_PASS=your-app-password
-SMTP_FROM=noreply@muse.art
+SMTP_FROM=noreply@synapse.exchange
 
 # SendGrid Configuration
 SENDGRID_API_KEY=your-sendgrid-api-key
-SENDGRID_FROM=noreply@muse.art
+SENDGRID_FROM=noreply@synapse.exchange
 ```
 
 ## API Endpoints

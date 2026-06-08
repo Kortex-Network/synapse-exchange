@@ -114,8 +114,8 @@ Ensure all dependencies installed:
 npm install
 
 # Or if needed:
-npm install --workspace=muse-backend
-npm install --workspace=muse-frontend
+npm install --workspace=synapse-backend
+npm install --workspace=synapse-frontend
 ```
 
 **✓ PASS:** Dependencies installed

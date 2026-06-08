@@ -1,7 +1,7 @@
 # Advanced Search Implementation Summary
 
 ## Overview
-Successfully implemented advanced search functionality for the Muse AI Art Marketplace with comprehensive filtering options for price range, artist, style, and creation date.
+Successfully implemented advanced search functionality for the Synapse Exchange with comprehensive filtering options for price range, artist, style, and creation date.
 
 ## Backend Implementation
 

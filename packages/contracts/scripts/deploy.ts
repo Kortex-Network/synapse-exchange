@@ -27,12 +27,12 @@ const networkConfig = {
 };
 
 async function deployContract(network: 'standalone' | 'testnet' | 'mainnet') {
-  console.log(`Deploying Muse contracts to ${network}...`);
+  console.log(`Deploying Synapse Exchange contracts to ${network}...`);
 
   const config = networkConfig[network];
   
   // Read the compiled WASM file
-  const wasmPath = path.join(__dirname, '../target/wasm32-unknown-unknown/release/muse_contracts.wasm');
+  const wasmPath = path.join(__dirname, '../target/wasm32-unknown-unknown/release/synapse_contracts.wasm');
   const wasmBuffer = fs.readFileSync(wasmPath);
   
   // Get deployer account

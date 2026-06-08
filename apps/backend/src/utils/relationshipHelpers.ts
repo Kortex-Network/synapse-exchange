@@ -15,7 +15,7 @@ import { Notification } from '../models/Notification'
  * Relationship Management Utilities
  * 
  * This module provides helper functions for managing relationships
- * between entities in the Muse NFT Marketplace.
+ * between entities in the Synapse Exchange NFT Marketplace.
  */
 
 /**

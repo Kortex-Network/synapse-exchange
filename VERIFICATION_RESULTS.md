@@ -39,7 +39,7 @@ The full `npm run build` showed errors in these **pre-existing files**:
 ### Option 1: Just Verify Syntax (30 seconds) ⚡
 
 ```powershell
-cd C:\Drip\muse-fullstack-dapp\apps\backend
+cd C:\Drip\synapse-exchange\apps\backend
 
 # Check my specific files
 npx tsc --noEmit --skipLibCheck src/utils/relationshipHelpers.ts
@@ -51,16 +51,16 @@ npx tsc --noEmit --skipLibCheck src/utils/relationshipHelpers.ts
 
 1. **Start MongoDB:**
    ```powershell
-   docker run -d -p 27017:27017 --name muse-mongo mongo:6
+   docker run -d -p 27017:27017 --name synapse-mongo mongo:6
    ```
 
 2. **Create test environment:**
    ```powershell
-   cd C:\Drip\muse-fullstack-dapp\apps\backend
+   cd C:\Drip\synapse-exchange\apps\backend
    
    # Create .env.test
    @"
-   MONGODB_URI_TEST=mongodb://localhost:27017/muse-test
+   MONGODB_URI_TEST=mongodb://localhost:27017/synapse-test
    NODE_ENV=test
    PORT=5001
    JWT_SECRET=test_secret_key_for_testing_min_32_chars_12345

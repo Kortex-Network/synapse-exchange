@@ -46,7 +46,7 @@ export function AccountMigration({ currentAccountData, onMigrationComplete, clas
     setSuccess(null)
 
     try {
-      const filename = `muse-account-export-${new Date().toISOString().split('T')[0]}.json`
+      const filename = `synapse-account-export-${new Date().toISOString().split('T')[0]}.json`
       await accountMigration.exportToFile(
         currentAccountData,
         password || undefined,

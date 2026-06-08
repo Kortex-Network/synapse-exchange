@@ -19,7 +19,7 @@ import { Follow } from '../models/Follow'
 async function testRelationships() {
   try {
     // Connect to MongoDB (make sure to configure your connection string)
-    await mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost:27017/muse-test')
+    await mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost:27017/synapse-test')
     
     console.log('Testing virtual relationships...')
     

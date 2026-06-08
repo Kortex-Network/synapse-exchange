@@ -300,7 +300,7 @@ class HealthService {
     return {
       status: overallStatus,
       timestamp: new Date().toISOString(),
-      service: 'muse-backend',
+      service: 'synapse-backend',
       version: process.env.npm_package_version || '1.0.0',
       uptime: Date.now() - this.startTime.getTime(),
       checks,

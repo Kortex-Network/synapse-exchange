@@ -52,7 +52,7 @@ export const getChallenge = async (
   try {
     const { address } = req.query as { address: string };
 
-    const nonce = `Muse Authentication Challenge: ${uuidv4()} at ${Date.now()}`;
+    const nonce = `Synapse Exchange Authentication Challenge: ${uuidv4()} at ${Date.now()}`;
     await cacheService.set(`auth_challenge:${address}`, nonce, 300);
 
     res.json({ success: true, data: { challenge: nonce } });
@@ -118,7 +118,7 @@ export const login = async (
       user = await User.create({
         address,
         username: "New Artist",
-        bio: "Just joined Muse marketplace",
+        bio: "Just joined Synapse Exchange",
       });
     }
 

@@ -3,7 +3,7 @@
 ## Issue #30: No Component Composition Strategy
 
 ### Overview
-This PR implements a comprehensive component composition strategy to solve monolithic component issues, code duplication, and maintenance problems in the Muse AI Generated Art Marketplace.
+This PR implements a comprehensive component composition strategy to solve monolithic component issues, code duplication, and maintenance problems in the Synapse Exchange AI Generated Art Marketplace.
 
 ## Files Created
 

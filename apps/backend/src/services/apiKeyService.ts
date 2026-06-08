@@ -49,7 +49,7 @@ class ApiKeyService {
   }
 
   private generateApiKey(): string {
-    const prefix = 'muse_'
+    const prefix = 'synapse_'
     const randomPart = uuidv4().replace(/-/g, '')
     return `${prefix}${randomPart}`
   }

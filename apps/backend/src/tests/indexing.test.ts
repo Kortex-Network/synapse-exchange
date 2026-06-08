@@ -4,7 +4,7 @@ import { Artwork, User, Transaction } from '@/models'
 
 describe('Database Indexing', () => {
   beforeAll(async () => {
-    const mongoUri = process.env.MONGODB_TEST_URI || 'mongodb://localhost:27017/muse-test'
+    const mongoUri = process.env.MONGODB_TEST_URI || 'mongodb://localhost:27017/synapse-test'
     await mongoose.connect(mongoUri)
   })
 

@@ -1,6 +1,6 @@
 # WebSocket Integration for Real-Time Notifications
 
-This document describes the WebSocket integration implemented to provide real-time updates for bids, sales, and minting status in the Muse AI Art Marketplace.
+This document describes the WebSocket integration implemented to provide real-time updates for bids, sales, and minting status in the Synapse Exchange.
 
 ## Overview
 

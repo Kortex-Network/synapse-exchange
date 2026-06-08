@@ -1,6 +1,6 @@
 # Dynamic Social Sharing Metadata Setup
 
-This document explains the implementation of dynamic metadata for rich social sharing of art pieces in the Muse AI Art Marketplace.
+This document explains the implementation of dynamic metadata for rich social sharing of art pieces in the Synapse Exchange.
 
 ## Overview
 
@@ -83,12 +83,12 @@ Navigate to:
 2. Right-click and select "View Page Source"
 3. Verify the following meta tags are present:
    ```html
-   <meta property="og:title" content="AI Artwork #1 - Muse AI Art Marketplace">
+   <meta property="og:title" content="AI Artwork #1 - Synapse Exchange">
    <meta property="og:description" content="Generated with AI Model...">
    <meta property="og:image" content="https://example.com/image1.jpg">
    <meta property="og:url" content="http://localhost:3000/artwork/1">
    <meta name="twitter:card" content="summary_large_image">
-   <meta name="twitter:title" content="AI Artwork #1 - Muse AI Art Marketplace">
+   <meta name="twitter:title" content="AI Artwork #1 - Synapse Exchange">
    ```
 
 #### Test Social Sharing

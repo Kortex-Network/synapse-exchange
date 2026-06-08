@@ -15,7 +15,7 @@ Before starting, ensure you have:
 
 ```powershell
 # In the root directory
-cd C:\Drip\muse-fullstack-dapp
+cd C:\Drip\synapse-exchange
 
 # Install all dependencies
 npm install
@@ -30,7 +30,7 @@ npm install
 **Option A: Using Docker (Recommended)**
 ```powershell
 # Start MongoDB in Docker
-docker run -d -p 27017:27017 --name muse-mongo mongo:6
+docker run -d -p 27017:27017 --name synapse-mongo mongo:6
 
 # Verify it's running
 docker ps
@@ -53,7 +53,7 @@ mongosh --eval "db.version()"
 
 ```powershell
 # In backend directory
-cd C:\Drip\muse-fullstack-dapp\apps\backend
+cd C:\Drip\synapse-exchange\apps\backend
 
 # Create .env file for development
 @"
@@ -62,7 +62,7 @@ PORT=3001
 NODE_ENV=development
 
 # Database
-MONGODB_URI=mongodb://localhost:27017/muse
+MONGODB_URI=mongodb://localhost:27017/synapse-exchange
 
 # Authentication (use any 32+ char string for testing)
 JWT_SECRET=test_secret_key_for_development_min_32_chars_12345
@@ -79,7 +79,7 @@ STABILITY_API_KEY=sk-test
 # Create .env.test file for testing
 @"
 # Test Database
-MONGODB_URI_TEST=mongodb://localhost:27017/muse-test
+MONGODB_URI_TEST=mongodb://localhost:27017/synapse-test
 
 # Test Settings
 NODE_ENV=test
@@ -94,7 +94,7 @@ JWT_SECRET=test_secret_key_for_testing_min_32_chars_12345
 
 **Just check for TypeScript/syntax errors:**
 ```powershell
-cd C:\Drip\muse-fullstack-dapp\apps\backend
+cd C:\Drip\synapse-exchange\apps\backend
 
 # Check for compilation errors
 npm run build
@@ -106,7 +106,7 @@ If this succeeds with no errors, the code is valid! ✨
 
 **Run the comprehensive test suite I created:**
 ```powershell
-cd C:\Drip\muse-fullstack-dapp\apps\backend
+cd C:\Drip\synapse-exchange\apps\backend
 
 # Run all tests including the new relationship tests
 npm test
@@ -147,7 +147,7 @@ Tests:       12 passed, 12 total
 
 **This validates existing data and updates statistics:**
 ```powershell
-cd C:\Drip\muse-fullstack-dapp\apps\backend
+cd C:\Drip\synapse-exchange\apps\backend
 
 # Run the migration
 npm run migrate
@@ -168,7 +168,7 @@ Relationship support migration completed successfully!
 
 ```powershell
 # Terminal 1 - Start Backend
-cd C:\Drip\muse-fullstack-dapp\apps\backend
+cd C:\Drip\synapse-exchange\apps\backend
 npm run dev
 
 # You should see:
@@ -264,7 +264,7 @@ Error: connect ECONNREFUSED ::1:27017
 docker ps | Select-String mongo
 
 # Or start it
-docker start muse-mongo
+docker start synapse-mongo
 ```
 
 ### Test Database Error
@@ -273,7 +273,7 @@ MongoServerError: Authentication failed
 ```
 **Solution:** Use connection string without auth for local testing
 ```env
-MONGODB_URI_TEST=mongodb://localhost:27017/muse-test
+MONGODB_URI_TEST=mongodb://localhost:27017/synapse-test
 ```
 
 ### Module Not Found Error
@@ -320,7 +320,7 @@ You've successfully tested the implementation if:
 
 **Don't want to set up MongoDB? Just run this:**
 ```powershell
-cd C:\Drip\muse-fullstack-dapp\apps\backend
+cd C:\Drip\synapse-exchange\apps\backend
 npm run build
 ```
 

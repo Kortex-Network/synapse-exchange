@@ -16,13 +16,13 @@
 ### STEP 1️⃣ : FORK THE REPOSITORY (1 minute)
 
 **Click this link and fork:**
-https://github.com/Muse-AI-Generated-Art-Marketplace/muse-fullstack-dapp/fork
+https://github.com/Synapse-Exchange/synapse-exchange/fork
 
 Or:
-1. Go to: https://github.com/Muse-AI-Generated-Art-Marketplace/muse-fullstack-dapp
+1. Go to: https://github.com/Synapse-Exchange/synapse-exchange
 2. Click **Fork** button (top right)
 3. Wait for fork to complete
-4. Your fork URL will be: `https://github.com/yusstyle/muse-fullstack-dapp`
+4. Your fork URL will be: `https://github.com/yusstyle/synapse-exchange`
 
 **Expected**: You'll see your fork created
 
@@ -34,7 +34,7 @@ Or:
 
 ```powershell
 cd c:\Users\PC\OneDrive\Desktop\wave3
-git remote add fork https://github.com/yusstyle/muse-fullstack-dapp.git
+git remote add fork https://github.com/yusstyle/synapse-exchange.git
 git push -u fork feature/environment-configuration
 ```
 
@@ -47,9 +47,9 @@ Writing objects: 100% (1/1), done.
 remote: Resolving deltas: 100% (1/1), done.
 remote: 
 remote: Create a pull request for 'feature/environment-configuration' on GitHub by visiting:
-remote:      https://github.com/yusstyle/muse-fullstack-dapp/compare/main...feature/environment-configuration
+remote:      https://github.com/yusstyle/synapse-exchange/compare/main...feature/environment-configuration
 remote:
-To https://github.com/yusstyle/muse-fullstack-dapp.git
+To https://github.com/yusstyle/synapse-exchange.git
  * [new branch]          feature/environment-configuration -> feature/environment-configuration
 Branch 'feature/environment-configuration' set up to track remote branch 'feature/environment-configuration' from 'fork'.
 ```
@@ -60,7 +60,7 @@ Branch 'feature/environment-configuration' set up to track remote branch 'featur
 
 **Option A: Quick Method (Recommended)**
 
-1. Go to: https://github.com/yusstyle/muse-fullstack-dapp
+1. Go to: https://github.com/yusstyle/synapse-exchange
 2. You'll see a banner saying: **"Your branch feature/environment-configuration had recent pushes"**
 3. Click the **"Compare & pull request"** button
 4. GitHub will show the PR form
@@ -70,10 +70,10 @@ Branch 'feature/environment-configuration' set up to track remote branch 'featur
 
 **Option B: Manual Method**
 
-1. Go to: https://github.com/Muse-AI-Generated-Art-Marketplace/muse-fullstack-dapp
+1. Go to: https://github.com/Synapse-Exchange/synapse-exchange
 2. Click **Pull requests** tab
 3. Click **"New pull request"** 
-4. Set base: `Muse-AI-Generated-Art-Marketplace/main`
+4. Set base: `Synapse-Exchange/main`
 5. Set compare: `yusstyle/feature/environment-configuration`
 6. Click **"Create pull request"**
 7. Fill in PR details
@@ -86,7 +86,7 @@ Branch 'feature/environment-configuration' set up to track remote branch 'featur
 # ✨ Environment Configuration System - Resolves Issue #70
 
 ## 🎯 Overview
-Delivers a complete environment configuration system for the Muse AI Art Marketplace dApp.
+Delivers a complete environment configuration system for the Synapse Exchange dApp.
 
 ## 📦 What's Included
 
@@ -135,7 +135,7 @@ After each step, verify:
 ### Step 1 - Fork Created
 ```bash
 # You should have a fork at:
-# https://github.com/yusstyle/muse-fullstack-dapp
+# https://github.com/yusstyle/synapse-exchange
 # Keep this URL handy!
 ```
 
@@ -151,7 +151,7 @@ git log --oneline -1
 ```
 
 ### Step 3 - PR Created
-- Go to: https://github.com/Muse-AI-Generated-Art-Marketplace/muse-fullstack-dapp/pulls
+- Go to: https://github.com/Synapse-Exchange/synapse-exchange/pulls
 - You should see your PR in the list
 - PR should show: `yusstyle:feature/environment-configuration → main`
 - Should have 14 files changed
@@ -167,12 +167,12 @@ git log --oneline -1
 cd c:\Users\PC\OneDrive\Desktop\wave3
 
 # Add your fork as remote
-git remote add fork https://github.com/yusstyle/muse-fullstack-dapp.git
+git remote add fork https://github.com/yusstyle/synapse-exchange.git
 
 # Push feature branch
 git push -u fork feature/environment-configuration
 
-# Done! Now go create PR at: https://github.com/yusstyle/muse-fullstack-dapp
+# Done! Now go create PR at: https://github.com/yusstyle/synapse-exchange
 ```
 
 ---
@@ -181,26 +181,26 @@ git push -u fork feature/environment-configuration
 
 ### Error: "fatal: Permission denied"
 **Solution**: You need to fork first. Go to: 
-https://github.com/Muse-AI-Generated-Art-Marketplace/muse-fullstack-dapp/fork
+https://github.com/Synapse-Exchange/synapse-exchange/fork
 
 ### Error: "Remote 'fork' already exists"
 **Solution**:
 ```bash
 git remote remove fork
-git remote add fork https://github.com/yusstyle/muse-fullstack-dapp.git
+git remote add fork https://github.com/yusstyle/synapse-exchange.git
 git push -u fork feature/environment-configuration
 ```
 
 ### Error: "fatal: 'fork' does not appear to be a 'git' repository"
 **Solution**: Make sure the URL is correct:
 ```bash
-git remote set-url fork https://github.com/yusstyle/muse-fullstack-dapp.git
+git remote set-url fork https://github.com/yusstyle/synapse-exchange.git
 ```
 
 ### Can't find "Compare & pull request" button
 **Solution**: Go directly to:
-- Your fork: https://github.com/yusstyle/muse-fullstack-dapp
-- Branch: https://github.com/yusstyle/muse-fullstack-dapp/tree/feature/environment-configuration
+- Your fork: https://github.com/yusstyle/synapse-exchange
+- Branch: https://github.com/yusstyle/synapse-exchange/tree/feature/environment-configuration
 - Create PR from there or use manual method (Step 3B)
 
 ---
@@ -209,10 +209,10 @@ git remote set-url fork https://github.com/yusstyle/muse-fullstack-dapp.git
 
 | What | Link |
 |------|------|
-| Fork Repository | https://github.com/Muse-AI-Generated-Art-Marketplace/muse-fullstack-dapp/fork |
-| Your Fork (after) | https://github.com/yusstyle/muse-fullstack-dapp |
-| Create PR | https://github.com/Muse-AI-Generated-Art-Marketplace/muse-fullstack-dapp/compare |
-| Issue #70 | https://github.com/Muse-AI-Generated-Art-Marketplace/muse-fullstack-dapp/issues/70 |
+| Fork Repository | https://github.com/Synapse-Exchange/synapse-exchange/fork |
+| Your Fork (after) | https://github.com/yusstyle/synapse-exchange |
+| Create PR | https://github.com/Synapse-Exchange/synapse-exchange/compare |
+| Issue #70 | https://github.com/Synapse-Exchange/synapse-exchange/issues/70 |
 
 ---
 
@@ -279,7 +279,7 @@ Once PR is created:
 
 **Complete Setup Docs**: [ENVIRONMENT_SETUP.md](./ENVIRONMENT_SETUP.md) · [Quick Ref](./ENVIRONMENT_QUICK_REFERENCE.md) · [Checklist](./ENVIRONMENT_SETUP_CHECKLIST.md)
 
-**GitHub**: [Repository](https://github.com/Muse-AI-Generated-Art-Marketplace/muse-fullstack-dapp) · [Issue #70](https://github.com/Muse-AI-Generated-Art-Marketplace/muse-fullstack-dapp/issues/70)
+**GitHub**: [Repository](https://github.com/Synapse-Exchange/synapse-exchange) · [Issue #70](https://github.com/Synapse-Exchange/synapse-exchange/issues/70)
 
 **Contributor**: @yusstyle | **Program**: [Stellar Wave 3rd Wave](https://www.drips.network/wave) | **Date**: March 27, 2026
 
@@ -290,7 +290,7 @@ Once PR is created:
 ## 🚀 START NOW
 
 ### **Right Now:**
-1. Click: https://github.com/Muse-AI-Generated-Art-Marketplace/muse-fullstack-dapp/fork
+1. Click: https://github.com/Synapse-Exchange/synapse-exchange/fork
 2. Fork completes (wait 1 minute)
 
 ### **Then:**
@@ -308,6 +308,6 @@ Once PR is created:
 
 **🎯 You've completed the hard work! Now just fork, push, and create the PR!**
 
-**Muse AI-Generated Art Marketplace · Environment Configuration System · Issue #70**
+**Synapse Exchange · Environment Configuration System · Issue #70**
 
 ---

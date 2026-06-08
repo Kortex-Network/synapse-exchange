@@ -2,7 +2,7 @@
 
 ## Overview
 
-This document describes the comprehensive API analytics and monitoring system implemented for the Muse AI Generated Art Marketplace backend. The system provides real-time visibility into API usage, performance metrics, error tracking, and automated alerting.
+This document describes the comprehensive API analytics and monitoring system implemented for the Synapse Exchange backend. The system provides real-time visibility into API usage, performance metrics, error tracking, and automated alerting.
 
 ## Features
 

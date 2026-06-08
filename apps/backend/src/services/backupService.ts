@@ -110,7 +110,7 @@ class BackupService {
 
   async restoreBackup(backupId: string): Promise<void> {
     const backupPath = path.join(this.backupDir, backupId);
-    const uri = process.env.MONGODB_URI || "mongodb://localhost:27017/muse";
+    const uri = process.env.MONGODB_URI || "mongodb://localhost:27017/synapse-exchange";
 
     try {
       await mongoose.disconnect();

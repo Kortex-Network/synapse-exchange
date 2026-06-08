@@ -1,6 +1,6 @@
 # Environment Configuration - File Navigation Guide
 
-This document helps you navigate the comprehensive environment configuration system for the Muse dApp.
+This document helps you navigate the comprehensive environment configuration system for the Synapse Exchange dApp.
 
 ## 🎯 Where To Start
 
@@ -279,7 +279,7 @@ After setup, verify your configuration:
 npm run validate-env
 
 # 2. Check database connection
-mongosh mongodb://localhost:27017/muse
+mongosh mongodb://localhost:27017/synapse-exchange
 
 # 3. Start backend
 npm run dev:backend

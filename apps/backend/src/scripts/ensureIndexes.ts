@@ -80,7 +80,7 @@ if (require.main === module) {
   const connectAndRun = async () => {
     try {
       const mongoUri =
-        process.env.MONGODB_URI || 'mongodb://localhost:27017/muse-marketplace'
+        process.env.MONGODB_URI || 'mongodb://localhost:27017/synapse-marketplace'
       await mongoose.connect(mongoUri)
 
       await ensureIndexes()
